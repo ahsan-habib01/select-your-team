@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "playerImage": "https://i.ibb.co/pByn86wn/images.jpg",
+    "playerName": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "rating": 9.3,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Slow Left-Arm Orthodox",
+    "price": 6000000
+  },
+  {
+    "id": 2,
+    "playerImage": "https://i.ibb.co/ccgdhgzq/images-1.jpg",
+    "playerName": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "rating": 9.1,
+    "playingRole": "Bowler",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Fast-Medium",
+    "price": 6000000
+  },
+  {
+    "id": 3,
+    "playerImage": "https://i.ibb.co/mCk6FJ6j/301403-3.webp",
+    "playerName": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "rating": 8.8,
+    "playingRole": "Batter",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 6000000
+  },
+  {
+    "id": 4,
+    "playerImage": "https://i.ibb.co/SpXqrHd/images-2.jpg",
+    "playerName": "Moeen Ali",
+    "country": "England",
+    "rating": 8.9,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 70000
+  },
+  {
+    "id": 5,
+    "playerImage": "https://i.ibb.co/cSzCvCJZ/images-3.jpg",
+    "playerName": "Kyle Mayers",
+    "country": "West Indies",
+    "rating": 8.4,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 50000
+  },
+  {
+    "id": 6,
+    "playerImage": "https://i.ibb.co/wFbyfLzn/cover-1726463390-Foto-Jet-24.jpg",
+    "playerName": "Faheem Ashraf",
+    "country": "Pakistan",
+    "rating": 8.1,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Medium-Fast",
+    "price": 30000
+  },
+  {
+    "id": 7,
+    "playerImage": "https://i.ibb.co/bjkcHnm5/images-4.jpg",
+    "playerName": "Dawid Malan",
+    "country": "England",
+    "rating": 8.7,
+    "playingRole": "Batter",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Leg-Break",
+    "price": 70000
+  },
+  {
+    "id": 8,
+    "playerImage": "https://i.ibb.co/5tRHcPD/images-5.jpg",
+    "playerName": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "rating": 8.6,
+    "playingRole": "Bowler",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 6000000
+  },
+  {
+    "id": 9,
+    "playerImage": "https://i.ibb.co/93fjRLH0/43489-8144236-updates.webp",
+    "playerName": "Khushdil Shah",
+    "country": "Pakistan",
+    "rating": 7.9,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Slow Left-Arm Orthodox",
+    "price": 30000
+  },
+  {
+    "id": 10,
+    "playerImage": "https://i.ibb.co/KxBwYHR1/dm-230804-COM-CRI-Analysis-Alex-Hales-legacy-T20-World.webp",
+    "playerName": "Alex Hales",
+    "country": "England",
+    "rating": 8.5,
+    "playingRole": "Batter",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 70000
+  },
+  {
+    "id": 11,
+    "playerImage": "https://i.ibb.co/b5k4MTvQ/images-6.jpg",
+    "playerName": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "rating": 8.8,
+    "playingRole": "All-Rounder",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off-Break",
+    "price": 70000
+  },
+  {
+    "id": 12,
+    "playerImage": "https://i.ibb.co/zWtZRbVN/images-7.jpg",
+    "playerName": "Mashrafe Mortaza",
+    "country": "Bangladesh",
+    "rating": 8.2,
+    "playingRole": "Bowler",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast-Medium",
+    "price": 4000000
+  }
+]
