@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import personImg from '../../assets/person-64.png';
 import flagImg from '../../assets/flag-50.png';
+import { toast } from 'react-toastify';
 
 // battingStyle: 'Left-Handed';
 // bowlingStyle: 'Slow Left-Arm Orthodox';
@@ -25,10 +26,14 @@ const PlayerCard = ({
     const playerPrice = parseInt(playerData.price);
 
     if (availableBalance < playerPrice) {
-      return alert('Not enough coins');
+      return toast('Not enough coins');
+    }
+    if (purchasedPlayers.length === 6) {
+      return toast('6 Players Already Selected');
     }
     setIsSelected(true), setAvailableBalance(availableBalance - playerPrice);
     setPurchasedPlayers([...purchasedPlayers, playerData]);
+    toast('Players Selected!');
   };
 
   return (
