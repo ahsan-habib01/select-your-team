@@ -7,12 +7,14 @@ import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers';
 const playersPromise = fetch('/players.json').then(res => res.json());
 
 function App() {
-
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(true);
+  const [availableBalance, setAvailableBalance] = useState(50000000);
+  const [purchasedPlayers, setPurchasedPlayers] = useState([]);
+  // console.log(purchasedPlayers);
 
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar availableBalance={availableBalance}></NavBar>
 
       {/* common nav */}
       <section className="max-w-6xl mx-auto mt-5 flex justify-between items-center">
@@ -29,7 +31,9 @@ function App() {
           </button>
           <button
             onClick={() => setToggle(false)}
-            className={`btn rounded-r-xl border-l-0 ${toggle=== false ? 'bg-yellow-300': ''}`}
+            className={`btn rounded-r-xl border-l-0 ${
+              toggle === false ? 'bg-yellow-300' : ''
+            }`}
           >
             Selected <span>(0)</span>
           </button>
@@ -42,15 +46,19 @@ function App() {
             <span className="loading loading-spinner loading-xl "></span>
           }
         >
-          <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+          <AvailablePlayers
+            playersPromise={playersPromise}
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+            purchasedPlayers={purchasedPlayers}
+            setPurchasedPlayers={setPurchasedPlayers}
+          ></AvailablePlayers>
         </Suspense>
       ) : (
-        <Suspense
-          fallback={
-            <span className="loading loading-spinner loading-xl"></span>
-          }
-        >
-          <SelectedPlayers></SelectedPlayers>
+        <Suspense>
+          <SelectedPlayers
+            purchasedPlayers={purchasedPlayers}
+          ></SelectedPlayers>
         </Suspense>
       )}
     </>
